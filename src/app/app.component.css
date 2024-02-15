@@ -1,0 +1,43 @@
+.header {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Pacifico', cursive;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+
+  .input-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+  }
+
+  .custom-input {
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+      max-width: 300px;
+  }
+
+  .circles {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+  }
+
+  .circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 1rem;
+  }
